@@ -1,0 +1,49 @@
+:root {
+  --bg-primary: #010736;
+  --bg-secondary: #fcf1d0;
+  --text-primary: #22396f;
+}
+
+.bg-primary-custom {
+  background-color: var(--bg-primary);
+}
+
+.bg-secondary-custom {
+  background-color: var(--bg-secondary);
+}
+
+.text-primary-custom {
+  color: var(--text-primary);
+}
+
+.text-secondary-custom {
+  color: var(--bg-secondary);
+}
+
+.btn-outline-custom {
+  background-color: transparent;
+  border: 1px solid var(--bg-secondary);
+  color: var(--bg-secondary);
+}
+
+.btn-outline-custom:hover {
+  background-color: var(--bg-secondary);
+  border-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+select:focus {
+    outline: none;
+    border: none;
+}
+
+.swap-btn {
+    width: 4.5rem;
+    height: 4.5rem;
+    cursor: pointer;
+}
